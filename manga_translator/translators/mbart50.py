@@ -5,7 +5,7 @@ import py3langid as langid
 from .common import OfflineTranslator
 
 ISO_639_1_TO_MBart50 = {
-
+    'mr': 'mr_IN',
     'ar': 'ar_AR',
     'de': 'de_DE',
     'en': 'en_XX',
@@ -32,6 +32,7 @@ class MBart50Translator(OfflineTranslator):
     # https://huggingface.co/facebook/mbart-large-50
     # other languages can be added as well
     _LANGUAGE_CODE_MAP = {
+        "MAR": "mr_IN",
         "ARA": "ar_AR",
         "DEU": "de_DE",
         "ENG": "en_XX",
