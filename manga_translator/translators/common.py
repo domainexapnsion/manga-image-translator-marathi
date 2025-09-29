@@ -22,6 +22,7 @@ VALID_LANGUAGES = {
     'HUN': 'Hungarian',
     'ITA': 'Italian',
     'JPN': 'Japanese',
+    'MAR': 'Marathi',
     'KOR': 'Korean',
     'POL': 'Polish',
     'PTB': 'Portuguese (Brazil)',
@@ -66,7 +67,8 @@ ISO_639_1_TO_VALID_LANGUAGES = {
     'hr': 'HRV',
     'th': 'THA',
     'id': 'IND',
-    'tl': 'FIL'
+    'tl': 'FIL',
+    'mr': 'MAR'
 }
 
 class InvalidServerResponse(Exception):
