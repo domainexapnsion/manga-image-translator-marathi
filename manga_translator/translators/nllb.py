@@ -28,6 +28,7 @@ ISO_639_1_TO_FLORES_200 = {
     'sr': 'srp_Cyrl',
     'hr': 'hrv_Latn',
     'th': 'tha_Thai',
+    'mr': 'mar_Deva', 
     'id': 'ind_Latn'
 }
 
@@ -56,6 +57,7 @@ class NLLBTranslator(OfflineTranslator):
         'SRP': 'srp_Cyrl',
         'HRV': 'hrv_Latn',
         'THA': 'tha_Thai',
+        'MAR': 'mar_Deva',
         'IND': 'ind_Latn'
     }
     _MODEL_SUB_DIR = os.path.join(OfflineTranslator._MODEL_DIR, OfflineTranslator._MODEL_SUB_DIR, 'nllb')
